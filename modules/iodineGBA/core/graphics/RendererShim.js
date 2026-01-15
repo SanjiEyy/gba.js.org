@@ -36,7 +36,7 @@ GameBoyAdvanceGraphicsRendererShim.prototype.initializeWorker = function(skippin
         this.worker = new Worker(loc2);
     } catch (e) {
         //Google Chrome:
-        var loc3 = loc + "/iodineGBA/core/graphics/Worker.js";
+        var loc3 = loc + "/modules/iodineGBA/core/graphics/Worker.js";
         this.worker = new Worker(loc3);
     }
     this.worker.postMessage({
