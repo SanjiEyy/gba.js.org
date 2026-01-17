@@ -1,19 +1,41 @@
-<!--
-
-GBA ONLINE;  GBA.JS.ORG;  "Online GameBoy Advance Emulator"
-Copyright (C) 2021-present AYVACS
-Licensed under the MIT License (view LICENSE.md for more information)
-
--->
-
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <meta http-equiv="refresh" content="0;url=https://gba.js.org">
-    <meta name="google-adsense-account" content="ca-pub-9046612143275852">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9046612143275852" crossorigin="anonymous"></script>
-    <title>Redirecting</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>404 - Page Not Found | GBA Online</title>
+    
+    <link rel="stylesheet" href="https://use.typekit.net/ccv3kiu.css">
+    <link rel="stylesheet" href="stylesheets/index.css">
+    <link rel="stylesheet" href="stylesheets/particles-js.css">
+    <link href="assets/macos-11x/Icon-MacOS-512x512@2x.png" type="image/png" rel="shortcut icon">
 </head>
 
+<body>
+    <div id="particles-js"></div>
+
+    <div class="container" style="display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 80vh;">
+        <header>
+            <h1 style="font-size: 8rem; margin-bottom: 0; color: var(--accent-color);">404</h1>
+            <p class="description" style="font-size: 1.5rem; margin-bottom: 40px;">Oops! The page you're looking for doesn't exist.</p>
+            
+            <a href="/" class="playerLink" style="display: inline-flex; justify-content: center; width: auto; padding: 15px 40px; font-weight: bold;">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin-right: 10px;">
+                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                    <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                </svg>
+                Back to Home
+            </a>
+        </header>
+
+        <footer style="margin-top: 40px;">
+            <div class="modified-by">MODIFIED BY <a href="https://www.facebook.com/BRYLniYah" target="_blank" style="color: inherit; font-size: inherit;">BRYLER</a></div>
+        </footer>
+    </div>
+
+    <script src="modules/particles/particles@2.0.0.min.js"></script>
+    <script>
+        particlesJS.load("particles-js", "modules/particles/shapes.json");
+    </script>
+</body>
 </html>
